@@ -237,6 +237,9 @@ ul, ol { list-style: none; }
 .fecha__dentro { max-width: var(--largura); margin: 0 auto; padding: clamp(48px, 7vw, 88px) var(--borda-lado); }
 .fecha p { margin-top: 16px; max-width: 40em; font-size: 1.1rem; font-weight: 500; }
 
+.fecha .fecha__fone { margin-top: 26px; font: 700 1.5rem/1.2 var(--titulo); letter-spacing: .05em; text-transform: uppercase; }
+.fecha__fone a { text-underline-offset: 5px; }
+
 .rodape {
   max-width: var(--largura); margin: 0 auto; padding: 32px var(--borda-lado) 40px;
   display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 18px;
